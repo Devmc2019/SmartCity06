@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.guide.GuideActivity">
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:banner_auto_loop="false"
+        app:banner_indicator_marginBottom="20dp"
+        app:banner_indicator_normal_color="@color/white"
+        app:banner_indicator_selected_color="@color/purple_200"
+        app:banner_infinite_loop="false" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/b2"
+        android:layout_centerHorizontal="true"
+        android:text="网络设置"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="进入主页"
+        android:visibility="gone" />
+</RelativeLayout>

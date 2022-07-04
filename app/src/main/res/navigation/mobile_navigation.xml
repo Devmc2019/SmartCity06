@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/n1">
+
+    <fragment
+        android:id="@+id/n1"
+        android:name="com.devmc.smartcity6.ui.home.HomeFragment"
+        android:label="首页" />
+
+    <fragment
+        android:id="@+id/n2"
+        android:name="com.devmc.smartcity6.ui.service.ServiceFragment"
+        android:label="全部服务" />
+
+    <fragment
+        android:id="@+id/n3"
+        android:name="com.devmc.smartcity6.ui.notifications.NotificationsFragment"
+        android:label="智慧党建" />
+
+    <fragment
+        android:id="@+id/n4"
+        android:name="com.devmc.smartcity6.ui.news.NewsFragment"
+        android:label="新闻" />
+
+    <fragment
+        android:id="@+id/n5"
+        android:name="com.devmc.smartcity6.ui.user.UserFragment"
+        android:label="个人中心" />
+</navigation>

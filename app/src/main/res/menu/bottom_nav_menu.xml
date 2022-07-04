@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/n1"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="首页" />
+
+    <item
+        android:id="@+id/n2"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="全部服务" />
+
+    <item
+        android:id="@+id/n3"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="智慧党建" />
+
+    <item
+        android:id="@+id/n4"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="新闻" />
+
+    <item
+        android:id="@+id/n5"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="个人中心" />
+
+</menu>
